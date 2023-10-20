@@ -12,3 +12,18 @@ Download spacy model
 ```bash
 python -m spacy download en_core_web_sm
 ```
+
+Export OpenAI key
+```bash
+export OPENAI_API_KEY="sk-P..."
+```
+
+Download a video text
+```bash
+python ./video-reader.py tesla '5b9H-JiS5J4'
+```
+
+Summarize the text
+```bash
+python ./openai_text_summary.py tesla
+```
