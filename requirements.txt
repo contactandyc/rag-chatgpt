@@ -1,0 +1,6 @@
+langchain==0.0.262
+youtube-transcript-api
+pytube
+spacy
+goldenverba
+openai
