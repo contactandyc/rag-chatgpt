@@ -27,3 +27,13 @@ Summarize the text
 ```bash
 python ./openai_text_summary.py tesla
 ```
+
+Starting Verba
+```bash
+verba start --model "gpt-3.5-turbo"
+```
+
+Importing into Verba
+```bash
+verba import --path tesla --model "gpt-3.5-turbo" --clear True
+```
